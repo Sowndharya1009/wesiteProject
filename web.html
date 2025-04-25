@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEETLY</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="html" href="form.html">
+    <link rel="script" href="web.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+  
+</head>
+<body>
+    <header class="head1"> <h1 class="first">.Fleetly</h1>
+        <span class="bar-icon" onclick="toggleMenu()" style="margin-left: 65%; @media screen and (max-width: 350px){margin-left: 55%} ">☰</span>
+        <div class="menu" id="menu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <style>
+            
+            .menu {
+                display: none; /* Initially hidden */
+                flex-direction: column;
+                background-color:darkgray;
+                padding: 10px;
+                position: fixed;
+                top: 50px;
+                right: 0;
+                width: 200px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                z-index: 1000;
+                border-radius: 50px;
+            }
+    
+            .menu a {
+                color: white;
+                text-decoration: none;
+                padding: 10px;
+                border-bottom: 1px solid #555;
+                display: block;
+            }
+    
+            .menu a:hover {
+                background-color: #555;
+                transition: 4s;
+                width: 60px;
+                height: 20px;
+                
+        
+            }
+    
+            .bar-icon {
+                font-size: 24px;
+                cursor: pointer;
+            }
+        </style>
+         <script>
+            function toggleMenu() {
+                const menu = document.getElementById('menu');
+                if (menu.style.display === 'block') {
+                    menu.style.display = 'none';
+                }
+                else{
+                    menu.style.display = 'block';
+                }
+            }
+           
+                
+            
+        </script>
+        
+    </header><br>
+  <br> <center> <div class="logo">
+   <img src="img/56-removebg-preview.png" height="250px" width="250px" class="img">
+   </div></center><br>
+   <br><center> <i class="fa fa-search " ></i><input class="searchbar" type="search" placeholder="Search here....."></center><br>
+   <br><br><div class="vendor" > <a href="form.html"><center>Vendor Reg</a> &nbsp; Link for register your <strong>shop</strong></center></div>
+   <div class="container">
+    <div class="flexbox1"> <h1>Grocery</h1><img src="img/groceryy-removebg-preview.png" class="img1"></div>
+    <div class="flexbox2"><h1>Food</h1><img src="img/foodddd-removebg-preview.png" class="img2"></div>
+    <div class="flexbox3"><h1>Cosmetics</h1><img src="img/cos-removebg-preview.png" class="img3"></div>
+</div>
+<footer>
+    <h1>Contact<a href="tel:8122690706" style="color:gray"> 8122600906</a></h1>
+    <h2><a href="mailto:fleetly@gmail.com">@email</a></h2>
+<a href="https://www.instagram.com/"><i class="fa fa-instagram" class="insta"></i></a>
+<a href="https://www.facebook.com/"><i class="fa fa-facebook" class="face"></i></a>
+<a href="https://x.com/login?">  <i class="fa fa-twitter" class="twit"></i></a>
+<a href="https://www.youtube.com/"> <i class="fa fa-youtube" class="youtube"></i></a>
+   
+</footer>
+   
+</body>
+</html>

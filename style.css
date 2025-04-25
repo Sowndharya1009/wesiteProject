@@ -1,0 +1,293 @@
+body{
+    background-image: url(img/pexels-lum3n-44775-295771.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head1{
+    background-image: url(img/floral-composition-beautiful-flowers-isolated-white-wall-spring-pattern-horizontal-shot_176532-6829.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid lightseagreen;
+    border-radius: 50px;
+    height: 100px;
+    width: 100%;
+
+}
+.first{
+    font-family: Copperplate, Papyrus, fantasy;
+    padding-left: 150px;
+    font-size: 40px;
+    display: inline;
+}
+.logo{
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    border-radius: 300px;
+}
+.img1{
+    padding-left: 5px;
+}
+.searchbar{
+    width:600px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 40px;
+}
+.searchbar:hover{
+   
+    background-color: aquamarine;
+    background-image: linear-gradient(to right,aquamarine,white);
+    width: 700px;
+    height: 70px;
+    transition: 1s;
+    align-items: center;
+   
+}
+.searchbar[placeholder]{
+  font-family:Arial, Helvetica, sans-serif
+}
+.vendor{
+    background-color: white;
+    width: 350px;
+    height: 100px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 25px;
+    margin-left: 600px;
+    padding-top: 10px;
+  
+}
+.container{
+    height: 100vh;
+    width: 210vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.flexbox1{
+    background-color:lightgray;
+    background-image: linear-gradient(to right,black,lightgray);
+    height: 400px;
+    width: 300px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 10px 10px 5px lightblue ;
+    flex-wrap: wrap;
+}
+.flexbox1:hover{
+  transition: 1s;
+  height: 450px;
+  width: 350px;
+  border-radius: 200px;
+  background-color: white;
+  
+}
+.flexbox2:hover{
+  transition: 1s;
+  height: 450px;
+  width: 350px;
+  border-radius: 200px;
+}
+.flexbox3:hover{
+  transition: 1s;
+  height: 450px;
+  width: 350px;
+  border-radius: 200px;
+}
+.flexbox2{
+    background-color:lightgray;
+    background-image: linear-gradient(to right,black,lightgray);
+    height: 400px;
+    width: 300px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 10px 10px 5px lightblue ;
+    flex-wrap: wrap;
+}
+.flexbox3{
+    background-color: lightgray;
+    background-image: linear-gradient(to right,black,lightgray);
+    height: 400px;
+    width: 300px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 10px 10px 5px lightblue ;
+    flex-wrap: wrap;
+}
+.img1{
+  height: 250px;
+  width: 250px;
+}
+.img2{
+    height: 250px;
+    width: 250px;
+  }
+  .img3{
+    height:250px;
+    width: 250px;
+  }
+  .img{
+    height: 250px;
+    width: 250px;
+    padding-left: 5px;
+  }
+  footer{
+    background-color:black;
+    height: 150px;
+    width: 100%;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    text-align: center;
+    border: 4px solid green;
+    color: white;
+  }
+
+  footer:hover{
+    
+    background-color:skyblue ;
+    background-image: linear-gradient(to right,skyblue ,white);
+    color: black;
+    text-shadow: 2px 2px 2px ;
+   
+  }
+  .vendor:hover{
+    background-color: silver;
+  }
+  i{
+    margin-bottom:5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 100px;
+    cursor: pointer;
+   
+  }
+  .menu {
+    display: none; /* Initially hidden */
+    flex-direction: column;
+    background-color: #444;
+    padding: 10px;
+    position: fixed;
+    top: 50px;
+    right: 0;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-bottom: 1px solid #555;
+}
+.menu a:hover {
+  background-color: #555;
+}
+
+.bar-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+
+/* Added responsive code for max-width 400px */
+@media screen and (max-width: 450px) {
+  .head1 {
+    height: auto;
+    padding: 10px;
+    border-radius: 20px;
+    border-width: 3px;
+  }
+  
+  .first {
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  
+  .bar-icon {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+
+  
+  .searchbar {
+    width: 90%;
+    margin: 10px auto;
+    display: block;
+  }
+  
+  .searchbar:hover {
+    width: 90%;
+    height: 60px;
+  }
+  
+  .vendor {
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    padding: 15px 10px;
+    font-size: 18px;
+  }
+  
+  .container {
+    height: auto;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .flexbox1, .flexbox2, .flexbox3 {
+    height: 300px;
+    width: 90%;
+    margin: 15px auto;
+  }
+  
+  .flexbox1:hover, .flexbox2:hover, .flexbox3:hover {
+    height: 320px;
+    width: 90%;
+  }
+  
+  .img1, .img2, .img3 {
+    height: auto;
+    width: 90%;
+    max-width: 200px;
+  }
+  
+  footer {
+    height: auto;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+  
+  footer h1, footer h2 {
+    font-size: 18px;
+  }
+  
+  i {
+    font-size: 40px;
+    padding: 10px;
+  }
+  
+  .menu {
+    width: 50%;
+    top: 40px;
+    right: 10%;
+  }
+
+  .bar{
+    margin-left: 90%;
+  }
+} 
